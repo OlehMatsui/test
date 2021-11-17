@@ -1,0 +1,9 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo $secret_text > some_code.txt
+artifacts:
+  files:
+    - some_code.txt
