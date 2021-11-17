@@ -1,12 +1,12 @@
 version: 0.2
 
 parameter-store:
-    secret_text: "secret"
+    secret: "secret"
 
 phases:
   build:
     commands:
-      - echo $secret_text >> some_code.txt
+      - echo $secret >> some_code.txt
 artifacts:
   files:
     - some_code.txt
