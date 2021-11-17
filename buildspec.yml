@@ -6,7 +6,7 @@ parameter-store:
 phases:
   build:
     commands:
-      - echo $secret_text > some_code.txt
+      - echo $secret_text >> some_code.txt
 artifacts:
   files:
     - some_code.txt
