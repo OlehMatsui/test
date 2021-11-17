@@ -1,5 +1,8 @@
 version: 0.2
 
+parameter-store:
+    secret_text: "secret"
+
 phases:
   build:
     commands:
