@@ -1,1 +1,1 @@
-$secret_text
+Use secret text:
